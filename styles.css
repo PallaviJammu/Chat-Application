@@ -1,0 +1,99 @@
+/* General Styles */
+body {
+  font-family: Arial, sans-serif;
+  background: linear-gradient(to right, #4facfe, #00f2fe);
+  color: white;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+
+/* Navbar Styling */
+.navbar {
+  height: 80px; /* Increased height */
+  padding: 20px 30px;
+  font-size: 1.2rem;
+  background-color: #222;
+}
+
+.navbar-nav .nav-link {
+  padding: 10px 15px;
+  color: white !important;
+}
+
+.navbar-nav .nav-link:hover {
+  color: #00f2fe !important;
+}
+
+/* Main Weather Box */
+.container {
+  max-width: 400px; /* Smaller width */
+  background: rgba(255, 255, 255, 0.2);
+  padding: 20px;
+  margin: 60px auto;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Input Field */
+input[type="text"] {
+  width: 80%;
+  padding: 10px;
+  margin: 10px 0;
+  border: none;
+  border-radius: 5px;
+  text-align: center;
+  font-size: 1rem;
+}
+
+/* Buttons */
+button {
+  padding: 10px 20px;
+  margin: 10px;
+  border: none;
+  border-radius: 5px;
+  font-size: 1rem;
+  cursor: pointer;
+  background-color: #008CBA;
+  color: white;
+}
+
+button:hover {
+  background-color: #005f73;
+}
+
+/* Weather Info */
+.weather-info {
+  margin-top: 20px;
+  font-size: 1.2rem;
+}
+
+/* Footer */
+footer {
+  margin-top: 20px;
+  font-size: 0.9rem;
+  color: #ddd;
+}
+/* Make sure the page fills the entire viewport */
+html, body {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Main content should take available space */
+.container {
+  flex: 1;
+}
+
+/* Footer should stay at the bottom */
+footer {
+  background: #222;
+  color: #ddd;
+  text-align: center;
+  padding: 15px;
+  position: relative;
+  bottom: 0;
+  width: 100%;
+  margin-top: auto; /* Push footer down */
+}
