@@ -1,4 +1,4 @@
-Chat-Application
+CHAT-APPLICATION
 
 Company: CODTECH IT SOLUTIONS
 
